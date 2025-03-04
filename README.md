@@ -1,17 +1,9 @@
 <h1 align="center">
-  🌟 Real-time Automated Mango Leaf Disease Detection in Bangladesh using CNNs 
+  🌟 Mango Leaf Disease Classification in Bangladesh using Random Forest and Decision Tree. 
 </h1>
-<p align="center"> 
-Detect and classify Bangladeshi mango leaf diseases in real-time with our cutting-edge Computer Vision model with 99.21 % accuracy, minimizing yield losses and empowering farmers.
-</p>
 
-<p align="center">
-  <img src="src/tasks/task-4-model-deployment/streamlit/images/streamlit.gif" />
-</p>
-
-
-<h3 align = "center"> 👀 Please have a look at our beautiful, well-documented <a href="/src/tasks/task-3-model-training/Best-Model/ResNet50/mango-leaf-disease-detection-using-cnn.ipynb">Notebook</a></h3>
-
+<h3 align = "center"> 👀 Please have a look at our beautiful, well-documented <a href="/src/tasks/task-3-model-training/Best-Model/ResNet50/mango-leaf-disease-detection-using-cnn.ipynb">Notebook1</a></h3>
+<h3 align = "center"> 👀 Please have a look at our beautiful, well-documented <a href="/src/tasks/task-3-model-training/Best-Model/ResNet50/mango-leaf-disease-detection-using-cnn.ipynb">Notebook2</a></h3>
 ## Problem
 Bacterial and fungal diseases are major constraints for mango production, causing around 30% yield loss annually. The absence of real-time, automated systems for early detection and classification of mango leaf diseases hampers efforts to mitigate crop losses. Currently, farmers face delayed diagnoses which reduces productivity and causes financial losses. This project aims to address this problem by developing a cutting-edge Computer Vision-based model that provides instant in-field detection and classification of mango leaf diseases, empowering farmers with timely information to reduce losses and enhance their income.
 

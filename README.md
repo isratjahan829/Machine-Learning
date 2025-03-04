@@ -2,7 +2,7 @@
   🌟 Mango Leaf Disease Classification in Bangladesh using Random Forest and Decision Tree. 
 </h1>
 
-<h3 align = "center"> 👀 Please have a look at our beautiful, well-documented <a href="/src/tasks/task-3-model-training/Best-Model/ResNet50/mango-leaf-disease-detection-using-cnn.ipynb">Notebook1</a></h3>
+<h3 align = "center"> 👀 Please have a look at our beautiful, well-documented <a href="https://github.com/isratjahan829/Machine-Learning/blob/main/mangoleafbd-rf-df.ipynb">Notebook1</a></h3>
 <h3 align = "center"> 👀 Please have a look at our beautiful, well-documented <a href="/src/tasks/task-3-model-training/Best-Model/ResNet50/mango-leaf-disease-detection-using-cnn.ipynb">Notebook2</a></h3>
 ## Problem
 Bacterial and fungal diseases are major constraints for mango production, causing around 30% yield loss annually. The absence of real-time, automated systems for early detection and classification of mango leaf diseases hampers efforts to mitigate crop losses. Currently, farmers face delayed diagnoses which reduces productivity and causes financial losses. This project aims to address this problem by developing a cutting-edge Computer Vision-based model that provides instant in-field detection and classification of mango leaf diseases, empowering farmers with timely information to reduce losses and enhance their income.

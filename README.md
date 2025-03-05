@@ -7,19 +7,60 @@
 ## Problem
 Bacterial and fungal diseases are major constraints for mango production, causing around 30% yield loss annually. The absence of real-time, automated systems for early detection and classification of mango leaf diseases hampers efforts to mitigate crop losses. Currently, farmers face delayed diagnoses which reduces productivity and causes financial losses. This project aims to address this problem by developing a cutting-edge Computer Vision-based model that provides instant in-field detection and classification of mango leaf diseases, empowering farmers with timely information to reduce losses and enhance their income.
 
-## Project Goals
-Collect a comprehensive dataset of mango leaf images encompassing multiple bacterial and fungal diseases, ensuring representation across various regions.
-Train and optimize Convolutional Neural Network (CNN) models to accurately detect and classify mango leaf diseases using the collected dataset.
-Develop an intuitive user interface with trained models for real-time mango disease screening by farmers.
-Learning Outcomes:
-Gain hands-on experience in training CNN models using popular frameworks such as TensorFlow, applying transfer learning, and optimizing model performance.
-Acquire knowledge and best practices for collecting high-quality data and annotations for training machine learning models in agricultural contexts.
-Develop proficiency in deploying deep learning models for real-world applications, specifically in the field of agriculture.
-Experience collaborating with a diverse team to build an end-to-end applied AI solution.
+## Features
+- **Data Preprocessing:** Cleans and processes the dataset.
+- **Feature Engineering:** Encodes categorical variables.
+- **Random Forest Model:** A powerful ensemble learning algorithm used for classification.
+- **Evaluation Metrics:** Includes accuracy, precision, recall, and F1-score.
+- **Visualization:** Provides graphical representations of feature importance and model performance.
+
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd MushroomSUC-Data-RF-DF
+   ```
+2. Install required dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run the Jupyter Notebook:
+   ```sh
+   jupyter notebook mushroomsuc-data-rf-df.ipynb
+   ```
+
+## Dataset
+The dataset consists of labeled samples of mushrooms with various biological and morphological features. It is preprocessed for optimal model performance. The key features include:
+- Cap shape, surface, and color
+- Gill attachment and spacing
+- Stalk shape, root, and surface texture
+- Presence of rings and spore print color
+
+## Usage
+- Execute the Jupyter Notebook to train the model.
+- Tune hyperparameters for improved accuracy.
+- Evaluate model performance using test data.
+- Use the trained model to classify new mushroom samples.
+
+## Results
+The model successfully differentiates between edible and poisonous mushrooms with high accuracy, making it a valuable tool for mycological studies and food safety analysis.
+
+## Folder Structure
+```
+MushroomSUC-Data-RF-DF/
+│-- data/                # Dataset folder
+│-- models/              # Saved models
+│-- notebooks/           # Jupyter Notebooks
+│-- results/             # Model performance results
+│-- mushroomsuc-data-rf-df.ipynb  # Main notebook
+│-- requirements.txt     # Dependencies
+│-- README.md            # Project documentation
+```
+
 
 ## Data
 
-The model is trained on a dataset of 3600 mango leaf images representing 7 common diseases and healthy leaves. The dataset was downloaded from data.mendeley.com which was collected from orchards in various mango-growing regions of Bangladesh.
+The model is trained on a dataset of 3600 mango leaf images representing 7 common diseases and healthy leaves. The dataset was downloaded from data.mendeley.com, collected from orchards in various mango-growing regions of Bangladesh.
 
 The classes:
 
@@ -33,11 +74,5 @@ The classes:
 
 The dataset is split into train and validation sets.
 However, we created a test set and our team has removed the duplicates and augmented images from the original dataset.
-
-## Achievements
-The model uses a ResNet50 architecture pre-trained on ImageNet weights. The model achieves an accuracy of 99.21% on the test set.
-
-## Deployment
-We deployed the model through Flask and streamlit. You have the option to interact with the project's live demo [here](https://mango-leaf-disease-app-omdena.streamlit.app/)
 
 
